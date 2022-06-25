@@ -1,0 +1,15 @@
+site:
+  title: Antora Test Docs Site
+  # the 404 page and sitemap files only get generated when the url property is set
+  url: https://sony1001.github.io/bocs/
+  start_page: antoratest::introduction.adoc
+content:
+  sources:
+    - url: https://github.com/fabianfnc/bocs.git
+      branches: 'master'
+      start_path: doc
+
+ui:
+  bundle:
+    url: https://github.com/fabianfnc/bocs/blob/master/doc/uibundle.zip?raw=true
+    snapshot: true

@@ -1,0 +1,45 @@
+= Generate and Serve
+:sectnums:
+:sectnumlevels: 4
+:toc:
+:toclevels: 4
+:experimental:
+:keywords: AsciiDoc
+:source-highlighter: highlight.js
+:icons: font
+
+NOTE: We are still inside our Playbook Project/Folder with VS Code
+
+== Generate your site
+
+to generate your site type
+
+- antora site.yml
+
+and your docs should be generated in a few seconds.
+
+You can find your generated site in the build/site folder.
+
+important: If you are changing sources/ui and your Antora won't build properly after, try: antora site.yml --pull. This will reset your cache.
+
+== Serve it
+
+We are going to use GitHub Pages to serve our Docs Page.
+
+. Go to your Repository on GitHub
+. click on Settings
+. scroll down to GitHub Pages
+. choose your source (master) and save
+. push your built html site folder (build/site/) to your created Repository
+. push an empty .nojekyll file to your Repository  (necessary for GitHub Pages)
+
+NOTE: Visit https://pages.github.com/[GitHub Pages icon:external link[]] for more
+
+== Finished
+
+Congratulations! You are done!
+
+you can see your created page on your GitHub Pages - Page (https://username.github.io.)
+
+In the case of this Documentation Site: https://fabianfnc.github.io/bocs/
+

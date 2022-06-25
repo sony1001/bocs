@@ -1,0 +1,28 @@
+= Set up the IDE 
+
+:sectnums:
+:sectnumlevels: 4
+:toc:
+:toclevels: 4
+:experimental:
+:keywords: AsciiDoc
+:source-highlighter: highlight.js
+:icons: font
+
+== Visual Studio Code
+
+Get https://code.visualstudio.com/[Visual Studio Code icon:external-link[]] and install it.
+
+=== Get an AsciiDoc Preview Extension
+
+Open btn:[VS Code] and go to btn:[Extensions (strg+shift+x)].
+
+Search for 'AsciiDoc' from João Pinto and install it.
+
+Now you are able to select 'Open Preview to the Side' on the upper right side while having selected an adoc file.
+
+
+== NodeJS
+Get https://nodejs.org/en/[Node.js icon:external-link[]] and install it.
+
+=> next: xref:gettingstarted/repository.adoc[Create Repository]
